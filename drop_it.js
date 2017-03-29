@@ -14,5 +14,3 @@ function dropElements(arr, func) {
 
 console.log(dropElements([1, 2, 3], function(n) {return n < 3; }));
 console.log(dropElements([1, 2, 3, 7, 4], function(n) {return n > 3;}));
-
-// hellooooooooooooooooo
